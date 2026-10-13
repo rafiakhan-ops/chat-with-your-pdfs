@@ -12,7 +12,7 @@ APP_TITLE = "Chat with Your PDFs"
 DEFAULT_CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
 DEFAULT_EMBED_MODEL = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
 
-st.set_page_config(page_title=APP_TITLE, page_icon="📚", layout="wide")
+st.set_page_config(page_title=APP_TITLE, layout="wide")
 
 st.markdown("""
 <style>
